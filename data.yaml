@@ -1,0 +1,13 @@
+train: ../dataset/train/images
+val: ../dataset/valid/images
+test: ../dataset/test/images
+
+nc: 12
+names: ['glove', 'goggles', 'helmet', 'mask', 'no-suit', 'no_glove', 'no_goggles', 'no_helmet', 'no_mask', 'no_shoes', 'shoes', 'suit']
+
+roboflow:
+  workspace: personal-protective-equipment
+  project: ppes-kaxsi
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/personal-protective-equipment/ppes-kaxsi/dataset/4

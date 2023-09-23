@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "surveily"
+version = "0.1.0"
+description = ""
+authors = ["Paweł Grabiński <pawel.grabinski@lekta.ai>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+numpy = "^1.26.0"
+pandas = "^2.1.1"
+opencv-python = "^4.8.0.76"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
