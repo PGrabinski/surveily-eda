@@ -6,7 +6,7 @@ authors = ["Paweł Grabiński <pawel.grabinski@lekta.ai>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = ">=3.10,<3.13"
+python = "=3.11.4"
 numpy = "^1.26.0"
 pandas = "^2.1.1"
 opencv-python = "^4.8.0.76"
