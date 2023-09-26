@@ -4,5 +4,5 @@ rm README.roboflow.txt README.dataset.txt data.yaml
 if ! [ -d /dataset ]; then
     mkdir dataset
 fi
-mv train/ /dataset/train
-mv valid/ /dataset/valid
+mv train dataset/train
+mv valid dataset/valid
